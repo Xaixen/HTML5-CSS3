@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+body{background-image: linear-gradient(purple, red);}
+
+main{background-color: gainsboro; width: 600px; margin: auto; padding: 10px; border-radius: 15px; box-shadow: 5px 5px 10px rgba(99, 1, 99, 0.603);}
+
+h1{color: rgb(114, 34, 206); text-align: center; text-shadow: 1px 1px 3px rgba(77, 23, 139, 0.774);}
+h2{color: rgb(95, 24, 24);}
