@@ -1,0 +1,20 @@
+HIERARQUIA DE TABELAS (simples)
+
+table = tabela
+    table row (tr) = linha de tabela
+        tabela header = cabeçalho de tabela
+        table data (td) = dado da tabela
+
+alinhanento da tabela
+     text-align -> alinhamento do texto na horizontal
+
+    vertical-align -> alinhamento do texto na horizontal
+
+anatomia para tabelas grandes
+    table
+        thead
+            th, tr, td
+        tbody
+            th, tr, td
+        tfoot
+            th, tr, td
