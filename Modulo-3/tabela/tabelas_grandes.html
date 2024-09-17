@@ -9,46 +9,55 @@
             width: 500px;
             border-collapse: collapse;
         }
+
+        caption{background-color: lightgray; margin-top: 20px; padding: 10px; font-size: 1.3em; border-radius: 10px 10px 0px 0px;}
+
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(87, 87, 87);
             color: antiquewhite;
         }
         td, th{
             border: 2px solid black;
             padding: 10px;
         }
-        tbody {text-align: center;}
+        tbody > tr:nth-child(2n){background-color: lightgray;}
+
+        thead{
+            position: sticky;
+            top: -1px
+        }
     
     </style>
 </head>
 <body>
     <table>
+        <caption>Estimativa poulacional BR</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td>45.979.800</td>
+                <td>45.973.800</td>
             </tr> 
             <tr>
                 <td>Rio de Janeiro</td>
-                <td>17.500.000</td>
+                <td>17.219.679</td>
             </tr> 
             <tr>
                 <td>Minas Gerais</td>
-                <td>27.454.122</td>
+                <td>21.322.692</td>
             </tr> 
             <tr>
                 <td>Bahia</td>
-                <td>3.435.665</td>
+                <td>14.850.513</td>
             </tr> 
             <tr>
                 <td>Sergipe</td>
-                <td>700.970</td>
+                <td>2.291.077</td>
             </tr> 
             <tr>
                 <td>Roraima</td>
@@ -56,13 +65,93 @@
             </tr> 
             <tr>
                 <td>Santa Catarina</td>
-                <td>14.230.089</td>
+                <td>7.609.601</td>
             </tr> 
+            <tr>
+                <td>Paraná</td>
+                <td>11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>10.880.506</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>9.058.155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>9.791.688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8.116.132</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>7.350.483</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>7.010.926</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>4.281.209</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>3.836.399</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>3.446.071</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td>3.375.646</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.220.104</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td>2.982.815</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td>2.982.815</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>2.291.077</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td>1.726.227</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>1.577.342</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>880.631</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td>802.837</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>716.793</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de População</th>
-                <td><strong>xxxx</strong></td>
+                <th scope="row">Total de População</th>
+                <td><strong>212 583 720</strong></td>
             </tr>
         </tfoot>
     </table>

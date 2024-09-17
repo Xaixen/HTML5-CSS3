@@ -18,3 +18,7 @@ anatomia para tabelas grandes
             th, tr, td
         tfoot
             th, tr, td
+
+tbody > tr:nth-child(2n) -> deixa tabela zebrada
+
+position: sticky; top: -1px -> faz que o cabeçalho seja expansivo
