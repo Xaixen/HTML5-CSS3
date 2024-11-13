@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario07</title>
+</head>
+<body>
+   <h1>exemplo de formulario</h1> 
+   <form action="cadastro.php" method="post">
+    <p>
+        <label for="iestado">Estado: </label>
+        <select name="estado" id="iestado">
+            <option value="" selected>--Selecione--</option>
+            <optgroup label="Região-sudeste">
+                <option value="">Rio de Janeiro</option>
+                <option value="">São Paulo</option>
+                <option value="">Minas Gerais</option>
+                <option value="">Espirito Santo</option>
+            </optgroup>
+            <optgroup label="Região-centro-oeste">
+                <option value="">Goias</option>
+                <option value="">Brasilia</option>
+                <option value="">Mato Grosso</option>
+                <option value="">Mato Grosso do Sul</option>
+            </optgroup>
+            <optgroup label="Região-sul">
+                <option value="">Parana</option>
+                <option value="">Santa-Catarina</option>
+                <option value="">Rio Grande do Sul</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="iprof">Profissão: </label>
+        <input type="text" name="prof" id="iprof" list="listprof">
+        <datalist id="listprof">
+            <option>Encanador</option>
+            <option>Desenvolvedor</option>
+            <option>Eletricista</option>
+            <option>Resgatista</option>
+            <option>Pedreiro</option>
+            <option>Engenheiro</option>
+            <option>Cozinherio</option>
+            <option>Padre/ Pastor</option>
+            <option>Paraquedista</option>
+            <option>Dona de casa</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="imensagem">Mensagem: </label>
+        <textarea name="mensagem" id="imensagem" placeholder="Escreva seu texto aqui!"></textarea>
+    </p>
+    <input type="submit">
+    <input type="reset">
+   </form>
+</body>
+</html>
